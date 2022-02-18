@@ -1,0 +1,56 @@
+# repository
+Godot FPS
+Hard Light Deployer - Shoots slow-moving orbs with primary fire. Projectiles act as nodes and create a wall of plasma when at least 3 nodes are deployed. Plasma wall is able to be walked on and blocks projectiles, deals heavy damage on contact with enemies. Charging primary fire increases distance nodes travel before slowing down, alt fire sends nodes in the direction its user is looking at high speed. Travels through surfaces.
+
+Drill Missile - Drill-tipped rocket that penetrates objects in the level. Upon penetrating an object, a chunk of rock is affixed to the missile, increasing damage, size, and upward knockback of projectile. Affect stacks.
+
+Deployable: Teleport - Deploy a teleport with which you can return to with primary fire. Option to respawn from this point.
+
+Sawblade Launcher/Chattering Teeth - Automatic weapon that fires large buzzing sawblades that richochet off walls. Extremely loud buzzing.
+
+Saw Tomahawk - Throwing axe with a reciprocating blade. Low-ish fire rate and speed, devastating on hit. Dismembers robos on kill.
+
+Arc Cutter - Automatic weapon that fires a vertical-reaching band of electricity. Projectile only disappears when both nodes collide with terrain.
+
+Remote Detonator - Fire bomb with primary fire, detonate with alt fire. Holding down primary fire charges high-speed bomb, Can have 4 bombs deployed at a time.
+
+Gravity Mine - Tossed on the ground and deploys after short delay. Creates a cone of energy above it that multiplies the amount of gravity within it. Induces fall damage and detonates when touched by enemy.
+
+Air Mine - Primary fire launches spiky UFO, primary fire stops spiky UFO in the air. Alt-fire detonates spiky UFO.
+
+Deployable: Platform - Creates a platform underneath you, possibly with area dential underneath, such as a pinwheel of flame.
+
+Knockout Punch - Fires a hydraulic-powered boxing glove at short range, dealing high damage before retracting. The force ignites airborne oxygen and creates an explosion. Yes, you can rocket jump with it.
+
+Supersonic Bomb - Due to some kind of design failure, it fires a turtle. Extremely slow (potentially homing), devastating projectile that ignores shields. Likes to taunt its enemy, telling any enemy robot how they're in for a world of hurt when he finally reaches them. 
+
+Rocket Launcher - Slow speed, moderate damage and blast radius. Explosive knockback can be used for rocket-jumping or sending your opponent into the air for an easy follow-up attack.
+
+Centipede Drone - Persistent homing drone. Can be shot to reduce the number of segments, reducing damage and slowing it down. Reloads 1 segment at a time. 
+
+Sonic Pulse - Fires a close-range ring of high-frequency sound. Rapidly dissapates, becoming larger but also doing less damage.
+
+Meltagun - Fires a glob of molten alluminum with helical force, causing it to expand during its airtime. Causes fire DOT. Not affected by damage falloff. Breifly sticks to the ground. *caustic bubble, ball and chain with expanding spikes*
+
+Atom Crusher - Projects a beam to align a magnetic field to guide a charged subatomic particle at super high speed. Creates a high damage hitscan after breif focusing.
+
+Crystal Bomb - Launches a disk with crystals growing out the top and bottom. Primary fire detonates bomb, shooting a spread of crystals both upward and downward.
+
+
+ROBOTS (All robots have 50 shield health)
+
+Bomber - 150 health and average ground movement, deceptively good air movement.
+
+Patroller - 100 health, great air control, special slows its rate of descent.
+
+Crusher - Large robot with 200 health, and 150 potential health of armor. Begins with 50 armor, can use special to self-repair and fill armor bar. Movement speed and also knockback resistance scaled proportionally to the amount of armor welded to crusher. Landing on an opponent deals massive damage, multiplied by the amount of armor welded to Crusher.
+
+Strider - 75 health, fastest ground movement, good air movement. Special intiates double jump, can deplete health to perform third jump.
+
+Gel - 100 health, average movement. Can use hitbox manipulation to avoid damage. Flattens when crouching, Becomes taller when holding jump. Crouching while jumping causes its legs to retract from the ground, causing Gel to fall. Hold down special to inflate, projecting a large hitbox that absorbs projectiles. fire while inflated to fire stored projectiles. Cannot fire weapons normally while inflated, movement speed slowed while inflated, inflation cannot be cancelled until a second goes by. Head and legs are still vulnerable while inflated.
+
+Buggy - 150 health, fast ground movement with longer acceleration/deceleration. Mediocre jump. Special activates boosters. Can deal damage to enemies on impact, or use slopes to cover massive distances in the air.
+
+Enforcer 2 - 125 health, average ground movement and air movement, can carry two primary weapons.
+
+Ninja - 75 health, good ground movement, average air movement, special activates breif cloak. Taunt turns Ninja into a prop from the map. Passive ability silences weapons. 
